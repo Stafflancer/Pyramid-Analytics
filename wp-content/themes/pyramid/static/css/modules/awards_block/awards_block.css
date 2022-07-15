@@ -1,0 +1,155 @@
+.awards_block {
+	padding: 118px 0 100px
+}
+
+@media (max-width: 768px) {
+	.awards_block {
+		padding: 80px 0 60px
+	}
+}
+
+@media (max-width: 576px) {
+	.awards_block {
+		padding: 60px 0 30px
+	}
+}
+
+.awards_block.heading_black h2 {
+	color: #3e3e3e
+}
+
+.awards_block.heading_white h2 {
+	color: #f7f9f7
+}
+
+.awards_block.text_black .awards .item {
+	color: #3e3e3e
+}
+
+.awards_block.text_white .awards .item {
+	color: #f7f9f7
+}
+
+.awards_block h2 {
+	text-align: center;
+	margin: 0 auto 18px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold
+}
+
+.awards_block .awards {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+.awards_block .awards .slick-dots {
+	width: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.awards_block .awards .item {
+	width: 33.33%;
+	margin-bottom: 22px;
+	padding: 0 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+@media (max-width: 992px) {
+	.awards_block .awards .item {
+		width: 50%
+	}
+}
+
+@media (max-width: 576px) {
+	.awards_block .awards .item {
+		width: 100%;
+		margin-bottom: 30px
+	}
+}
+
+.awards_block .awards .item .thumb {
+	margin-bottom: 22px
+}
+
+.awards_block .awards .item .thumb img {
+	display: block
+}
+
+.awards_block .awards .item .title {
+	font-size: 18px;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+@media (max-width: 576px) {
+	.awards_block .awards .item .title {
+		font-size: 16px;
+		line-height: 20px
+	}
+}
+
+.awards_block .awards .item .excerpt {
+	font-size: 18px;
+	text-align: center
+}
+
+@media (max-width: 576px) {
+	.awards_block .awards .item .excerpt {
+		font-size: 16px
+	}
+}
+
+.awards_block .awards .item a {
+	font-family: 'MuseoSlab', sans-serif;
+	font-weight: 700;
+	margin-top: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #0eafdb
+}
+
+.awards_block .awards .item a:hover {
+	color: #f2542d
+}
+
+.awards_block .awards .item a:hover svg path {
+	fill: #f2542d
+}
+
+.awards_block .awards .item a svg {
+	width: 19px;
+	margin-left: 8px;
+	margin-top: 2px
+}
+
+.awards_block .awards .item a svg path {
+	-webkit-transition: fill .15s;
+	-o-transition: fill .15s;
+	transition: fill .15s
+}
+
+@media (max-width: 992px) {
+	.awards_block .awards {
+		justify-content: center;
+	}
+}

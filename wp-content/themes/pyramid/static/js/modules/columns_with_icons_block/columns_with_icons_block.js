@@ -1,0 +1,1 @@
+!function(o){o(document).on("ready",(function(){var n=o(".columns_with_icons_block .columns");n.length&&o(window).width()<576&&n.each((function(){o(this).slick({dots:!0,arrows:!1,slidesToShow:1,slidesToScroll:1})}))}))}(jQuery);

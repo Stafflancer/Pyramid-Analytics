@@ -1,0 +1,76 @@
+@import '../../src/scss/vars';
+
+.hero_banner_common_block {
+	padding: 250px 0 155px;
+
+	@media (max-width: $md) {
+		padding: 200px 0 100px;
+	}
+
+	@media (max-width: $sm) {
+		padding: 150px 0 80px;
+	}
+
+	@media (max-width: $xs) {
+		padding: 150px 0 60px;
+	}
+
+	/*settings*/
+	&.heading_black h1 {
+		color: $black-type-1;
+	}
+
+	&.heading_white h1 {
+		color: $white-type-1;
+	}
+
+	&.text_black .tagline,
+	&.text_black .breadcrumbs {
+		color: $black-type-1;
+	}
+
+	&.text_white .tagline,
+	&.text_white .breadcrumbs {
+		color: $white-type-1;
+	}
+
+	/*settings*/
+
+	.section-holder {
+		margin-left: auto;
+		width: 100%;
+		max-width: 578px;
+
+		@media (max-width: $sm) {
+			margin-left: 0;
+		}
+	}
+
+	.breadcrumbs {
+		font-size: 16px;
+		font-family: $open-sans;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 35px;
+
+		@media (max-width: $sm) {
+			margin-bottom: 25px;
+		}
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	.tagline {
+		margin-top: 17px;
+	}
+
+	.btn-holder {
+		margin-top: 31px;
+
+		@media (max-width: $xs) {
+			margin-top: 25px;
+		}
+	}
+}

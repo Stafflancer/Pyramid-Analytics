@@ -1,0 +1,99 @@
+.frequently__asked__question {
+    background-color: #F7F9F7;
+}
+.frequently__asked__question__container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 15px;
+}
+.frequently__asked__question__container h2 {
+    color: #3E3E3E;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+.frequently__asked__question__container__divider {
+    height: 1px;
+    max-width: 1100px;
+    background-color: #D0D3D4;
+}
+.frequently__asked__question .accordion {
+    background-color: #F7F9F7;
+    color: #444;
+    cursor: pointer;
+    padding: 20px 60px 20px 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    position: relative;
+    font-family: 'MuseoSlab', sans-serif;
+	font-weight: 700;
+}
+.frequently__asked__question .accordion:after {
+    content: '\002B';
+    border: 1px solid #D0D3D4;
+    border-radius: 200px;
+    color: #755CC0;
+    margin-left: 5px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    transform: translate(0px, -50%);
+}
+.faq-item.faq-item--active .accordion:after {
+    content: "\2212";
+}
+.frequently__asked__question .panel {
+    padding: 0 18px;
+    background-color: #F7F9F7;
+    transition: max-height 0.2s ease-out;
+    display: none;
+}
+.faq-item.faq-item--active .panel{
+    display: block;
+}
+.frequently__asked__question .panel p {
+    margin-bottom: 20px;
+    color: #3E3E3E;
+    margin-top: 0;
+}
+@media(max-width:  992px){
+    .frequently__asked__question__container h2 {
+        font-size: 35px;
+    }
+    .frequently__asked__question .accordion {
+        font-size: 17px;
+    }
+}
+@media(max-width: 768px){
+    .frequently__asked__question__container h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .frequently__asked__question .accordion {
+        font-size: 16px;
+        padding: 15px 60px 15px 18px;
+    }
+    .frequently__asked__question .accordion::after {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .frequently__asked__question .panel p {
+        font-size: 14px;
+    }
+    .frequently__asked__question__container {
+        padding-top: 0;
+    }
+}

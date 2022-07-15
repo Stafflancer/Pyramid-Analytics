@@ -1,0 +1,88 @@
+.tell-us__section {
+    background-color: #F7F9F7;
+    padding: 70px 15px;
+}
+.tell-us__section .tell-us__section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.tell-us__section .tell-us__section__container img, .tell-us__section .tell-us__section__container p {
+    margin-bottom: 20px;
+}
+.tell-us__section .tell-us__section__container img {
+    width: 263px;
+        object-fit: contain;
+    height: 50px;
+}
+.tell-us__section .tell-us__section__container p {
+	color: #3E3E3E;
+	max-width: 810px;
+	font-size: 24px;
+	line-height: 34px;
+	font-family: 'MuseoSlab', sans-serif;
+	font-weight: 700;
+	opacity: 0.51;
+}
+.tell-us__section .tell-us__section__container .tell-us__section__btn {
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: #0EAFDB;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+	font-weight: bold;
+    display: inline-block;
+}
+.tell-us__section .tell-us__section__container .tell-us__section__btn:hover, .tell-us__section .tell-us__section__container .tell-us__section__btn:focus {
+    background: #f2542d;
+}
+.tell-us__section__btn {
+    cursor: pointer;
+}
+.tell-us__modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+.tell-us__modal-content {
+    margin: auto;
+    padding: 15px;
+    width: 100%;
+    max-width: 700px;
+}
+.close {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    line-height: 1;
+}
+.tell-us__section__video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 768px){
+    .tell-us__section .tell-us__section__container p {
+        font-size: 16px;
+    }
+}

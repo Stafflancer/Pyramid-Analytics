@@ -1,0 +1,635 @@
+# Translation of Plugins - PublishPress Future: Automatically Unpublish WordPress Posts - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - PublishPress Future: Automatically Unpublish WordPress Posts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-28 11:38:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - PublishPress Future: Automatically Unpublish WordPress Posts - Stable (latest release)\n"
+
+#: views/menu-diagnostics.php:100
+msgid "Posts and expiration settings"
+msgstr "Einstellungen Beiträge und Ablaufdaten"
+
+#: views/expire-column.php:21
+msgid "Cron event not found!"
+msgstr "Cron-Ereignis nicht gefunden!"
+
+#: views/expire-column.php:18
+msgid "Cron event scheduled."
+msgstr "Cron-Ereignis geplant."
+
+#: classes/Display.class.php:80
+msgid "You do not have permission to configure PublishPress Future."
+msgstr "Du hast keine Berechtigung, Einstellungen von PublishPress Future zu bearbeiten."
+
+#: views/tabs.php:37
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: views/tabs.php:22
+msgid "Display"
+msgstr "Anzeigen"
+
+#: views/menu-editor.php:10
+msgid "Editor"
+msgstr "Editor"
+
+#: views/menu-defaults.php:126
+msgid "Select whether the PublishPress Future is enabled for all new posts."
+msgstr "Wähle, ob PublishPress Future für alle neuen Beiträge aktiviert sein soll."
+
+#: views/menu-advanced.php:51
+msgid "Choose which user roles can use PublishPress Future"
+msgstr "Wähle, welche Benutzerrollen PublishPress Future benutzen können."
+
+#: classes/Display.class.php:435
+msgid "Contact"
+msgstr "Kontakt"
+
+#: classes/Display.class.php:433
+msgid "Contact the PublishPress team"
+msgstr "Das PublishPress-Team kontaktieren"
+
+#: classes/Display.class.php:427
+msgid "Documentation"
+msgstr "Dokumentation (engl.)"
+
+#: classes/Display.class.php:425
+msgid "Future Documentation"
+msgstr "Future Dokumentation"
+
+#: classes/Display.class.php:419
+msgid "About"
+msgstr "Über"
+
+#: classes/Display.class.php:417
+msgid "About PublishPress Future"
+msgstr "Über PublishPress Future"
+
+#: classes/Display.class.php:402
+msgid "If you like %s, please leave us a %s rating. Thank you!"
+msgstr "Wenn dir %s gefällt, gib uns doch eine %s-Bewertung. Danke!"
+
+#: classes/Display.class.php:54
+msgid "Future"
+msgstr "Future"
+
+#: classes/Display.class.php:53
+msgid "PublishPress Future Options"
+msgstr "Optionen für PublishPress Future"
+
+#. Plugin Name of the plugin
+#: classes/Facade.class.php:378 post-expirator.php:361 views/bulk-edit.php:18
+#: views/tabs.php:10
+msgid "PublishPress Future"
+msgstr "PublishPress Future"
+
+#: views/menu-advanced.php:104
+msgid "Toggle between preserving or deleting data after the plugin is deactivated."
+msgstr "Umschalten zwischen Behalten oder Löschen der Daten, nachdem das Plugin deaktiviert wurde."
+
+#: views/menu-advanced.php:100
+msgid "Delete data"
+msgstr "Daten löschen"
+
+#: views/menu-advanced.php:91
+msgid "Preserve data"
+msgstr "Daten speichern"
+
+#: views/menu-advanced.php:82
+msgid "Preserve data after deactivating the plugin"
+msgstr "Behalten der Daten, nachdem das Plugin deaktiviert wurde."
+
+#: views/menu-diagnostics.php:73
+msgid "No cron events found for the plugin."
+msgstr "Keine Cron-Ereignisse für das Plugin gefunden."
+
+#: post-expirator.php:2090
+msgid "Forbidden"
+msgstr "Unzulässig"
+
+#: post-expirator.php:2089
+msgid "You're not allowed to set posts to expire"
+msgstr "Du hast keine Berechtigung, ein Verfallsdatum für diesen Beitrag festzulegen"
+
+#: classes/Facade.class.php:381
+msgid "Loading"
+msgstr "Wird geladen"
+
+#: classes/Facade.class.php:368
+msgid "Category"
+msgstr "Kategorie"
+
+#: views/tabs.php:27
+msgid "Post Types"
+msgstr "Inhaltstypen"
+
+#: views/menu-advanced.php:42 views/menu-editor.php:27
+msgid "Toggle between native support for the Block Editor or the backward compatible Classic Editor style metabox."
+msgstr "Wechsel zwischen vorgegebene Unterstützung für den Block Editor oder der Metabox für den Classic Editor."
+
+#: views/menu-advanced.php:40 views/menu-editor.php:25
+msgid "Show Classic Editor style box"
+msgstr "Zeige Classic Editor Style Box "
+
+#: views/menu-advanced.php:34 views/menu-editor.php:21
+msgid "Show Gutenberg style box"
+msgstr "Zeige Gutenberg Style Box"
+
+#: views/menu-advanced.php:28 views/menu-editor.php:17
+msgid "Block Editor Support"
+msgstr "Unterstützung für Block Editor"
+
+#: views/menu-advanced.php:18
+msgid "Please do not update anything here unless you know what it entails. For advanced users only."
+msgstr "Bitte hier nichts ändern, außer Du kennst die Auswirkungen. Nur für fortgeschrittene User."
+
+#: views/menu-advanced.php:16
+msgid "Advanced Options"
+msgstr "Erweiterte Optionen"
+
+#: views/menu-general.php:82
+msgid "The default format to use when displaying the expiration time within a post using the shortcode or within the footer.  For information on valid formatting options, see: %s."
+msgstr "Das Standardformat für die Anzeige der Verfallszeit in einem Beitrag mit einem Shortcode oder im Footer. Informationen über gültige Formatierungen, siehe: %s."
+
+#: views/menu-general.php:65
+msgid "The default format to use when displaying the expiration date within a post using the shortcode or within the footer.  For information on valid formatting options, see: %s."
+msgstr "Das Standardformat für die Anzeige des Verfallsdatums in einem Beitrag mit einem Shortcode oder im Footer. Informationen über gültige Formatierungen, siehe: %s."
+
+#: views/menu-display.php:37
+msgid "%1$s - valid options are %2$sfull%3$s (default), %4$sdate%5$s, %6$stime%7$s"
+msgstr "%1$s - gültige Optionen sind %2$sfull%3$s (standard), %4$sdate%5$s, %6$stime%7$s"
+
+#: views/menu-display.php:33
+msgid "Valid %s attributes:"
+msgstr "Gültige %s Attribute:"
+
+#: views/menu-display.php:31
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: views/menu-diagnostics.php:13
+msgid "Debug Logging"
+msgstr "Debug Logging"
+
+#: views/menu-defaults.php:207
+msgid "Set the default expiration date to be used when creating a new post of this type."
+msgstr "Das Standard-Verfallsdatum einstellen, das beim Erstellen eines neuen Beitrags dieses Typs verwendet wird."
+
+#: views/menu-defaults.php:177
+msgid "Publish Time"
+msgstr "Veröffentlichung Zeit"
+
+#: views/menu-defaults.php:175
+msgid "Inherit from General Settings"
+msgstr "Aus den allgemeinen Einstellungen übernehmen"
+
+#: views/bulk-edit.php:109 views/quick-edit.php:74
+msgid "Type"
+msgstr "Typ"
+
+#: post-expirator.php:2042
+msgid "No taxonomies found"
+msgstr "Keine Taxonomien gefunden"
+
+#. Author URI of the plugin
+msgid "http://publishpress.com"
+msgstr "http://publishpress.com"
+
+#. Author of the plugin
+msgid "PublishPress"
+msgstr "PublishPress"
+
+#: views/menu-defaults.php:224 views/menu-general.php:123
+msgid "Set the custom value to use for the default expiration date.  For information on formatting, see %1$s. For example, you could enter %2$s+1 month%3$s or %4$s+1 week 2 days 4 hours 2 seconds%5$s or %6$snext Thursday%7$s."
+msgstr "Lege die Werte für das Standard-Ablaufdatum fest. Für Informationen zur Formatierung siehe %1$s. Beispielweise kannst Du eingeben %2$s+1 Monat%3$s oder %4$s+1 Woche 2 Tage 4 Stunden 2 Sekunden%5$s oder %6$snächster Dienstag%7$s."
+
+#: views/bulk-edit.php:45
+msgid "Remove from posts"
+msgstr "Aus Beiträgen entfernen"
+
+#: views/bulk-edit.php:42
+msgid "Change & Add"
+msgstr "Ändern & Hinzufügen"
+
+#: views/bulk-edit.php:39
+msgid "Add to posts"
+msgstr "Zu Beiträgen hinzufügen"
+
+#: views/bulk-edit.php:38
+msgid "Add expiry date if not enabled on posts"
+msgstr "Ablaufdatum hinzufügen falls nicht bei Beiträgen aktiviert"
+
+#: views/bulk-edit.php:35
+msgid "Change on posts"
+msgstr "Änderung auf Beiträgen"
+
+#: views/bulk-edit.php:34
+msgid "Change expiry date if enabled on posts"
+msgstr "Ablaufdatum ändern, falls bei Beiträgen aktiviert"
+
+#: views/bulk-edit.php:30
+msgid "No Change"
+msgstr "Keine Änderung"
+
+#: post-expirator.php:1383
+msgid "[%1$s] %2$s"
+msgstr "[%1$s] %2$s"
+
+#: classes/Facade.class.php:374 views/how-to-expire.php:43
+msgid "Unstick"
+msgstr "Fixierung aufheben"
+
+#: classes/Facade.class.php:373 views/how-to-expire.php:40
+msgid "Stick"
+msgstr "Fixieren"
+
+#: classes/Facade.class.php:371 views/how-to-expire.php:34
+msgid "Trash"
+msgstr "In den Papierkorb"
+
+#: views/menu-defaults.php:166
+msgid "Enter a comma separate list of emails that you would like to be notified when the post expires."
+msgstr "Gib eine durch Kommata getrennte Liste von E-Mail-Adressen ein, die du benachrichtigen möchtest, wenn der Beitrag verfällt."
+
+#: views/menu-general.php:232
+msgid "Enter a comma separate list of emails that you would like to be notified when the post expires.  This will be applied to ALL post types.  You can set post type specific emails on the Defaults tab."
+msgstr "Gib eine durch Kommata getrennte Liste von E-Mail-Adressen ein, die du benachrichtigen möchtest, wenn der Beitrag verfällt. Diese wird auf alle Inhaltstypen angewandt. Du kannst spezifische E-Mails für Inhaltstypen im Standard-Tab definieren."
+
+#: views/menu-defaults.php:159 views/menu-general.php:225
+msgid "Who to notify"
+msgstr "Wen willst du benachrichtigen:"
+
+#: views/menu-general.php:216
+msgid "This will include all users with the role of \"Administrator\" in the post expiration email."
+msgstr "Damit beziehst du alle Benutzer mit der Rolle \"Administrator\" in die E-Mail zum Verfall des Beitrags ein. "
+
+#: views/menu-general.php:198
+msgid "Include Blog Administrators?"
+msgstr "Blog-Administrator einbeziehen?"
+
+#: views/menu-general.php:190
+msgid "This will enable or disable the send of email notification on post expiration."
+msgstr "Damit aktivierst oder deaktivierst du den Versand der E-Mai-Benachrichtigung über den Verfall des Beitrags."
+
+#: views/menu-general.php:174
+msgid "Enable Email Notification?"
+msgstr "E-Mail-Benachrichtigung aktivieren?"
+
+#: views/menu-general.php:167
+msgid "Whenever a post expires, an email can be sent to alert users of the expiration."
+msgstr "Wenn ein Beitrag verfällt, kann eine E-Mail gesandt werden, um die Benutzer vor dem Verfall zu warnen."
+
+#: views/menu-general.php:165
+msgid "Expiration Email Notification"
+msgstr "E-Mail zur Benachrichtigung über den Verfall"
+
+#: post-expirator.php:1340
+msgid "Post Expiration Complete \"%s\""
+msgstr "Post Expiration vollständig\"%s\""
+
+#: post-expirator.php:1233 post-expirator.php:1285
+msgid "%1$s (%2$s) has expired at %3$s. The following post \"%4$s\" have now been removed: \"%5$s\". The full list of categories on the post are: \"%6$s\"."
+msgstr "%1$s (%2$s) verfiel am %3$s. Der folgende Beitrag \"%4$s\" wurde nun entfernt: \"%5$s\". Die vollständige Liste der Kategorien dieses Beitrages: \"%6$s\"."
+
+#: post-expirator.php:1121 post-expirator.php:1166
+msgid "%1$s (%2$s) has expired at %3$s. The following post \"%4$s\" have now been added: \"%5$s\". The full list of categories on the post are: \"%6$s\"."
+msgstr "%1$s (%2$s) verfiel am  %3$s. Der folgende Beitrag \"%4$s\"  wurde nun hinzugefügt: \"%5$s\". Die vollständige Liste der Kategorien dieses Beitrages: \"%6$s\"."
+
+#: post-expirator.php:1017 post-expirator.php:1061
+msgid "%1$s (%2$s) has expired at %3$s. Post \"%4$s\" have now been set to \"%5$s\"."
+msgstr "%1$s (%2$s) verfiel am %3$s. Beitrag \"%4$s\" wurde geändert auf \"%5$s\". "
+
+#: post-expirator.php:989
+msgid "%1$s (%2$s) has expired at %3$s. Post \"%4$s\" status has been successfully removed."
+msgstr "%1$s (%2$s) verfiel am %3$s. Beitrag \"%4$s\" Status wurde erfolgreich entfernt."
+
+#: post-expirator.php:968
+msgid "%1$s (%2$s) has expired at %3$s. Post \"%4$s\" status has been successfully set."
+msgstr "%1$s (%2$s) verfiel am %3$s. Beitrag\"%4$s\"-Status wurde erfolgreich eingestellt. "
+
+#: post-expirator.php:872 post-expirator.php:896 post-expirator.php:920
+#: post-expirator.php:944
+msgid "%1$s (%2$s) has expired at %3$s. Post status has been successfully changed to \"%4$s\"."
+msgstr "%1$s (%2$s) verfiel am %3$s. Der Beitrags-Status wurde erfolgreich geändert auf \"%4$s\"."
+
+#. Description of the plugin
+msgid "Allows you to add an expiration date (minute) to posts which you can configure to either delete the post, change it to a draft, or update the post categories at expiration time."
+msgstr "Erlaubt dir, einen Verfallszeitpunkt (minutengenau) zu Beiträgen hinzuzufügen, den du so konfigurieren kannst, dass der Beitrag zum Verfallszeitpunkt entweder gelöscht, in einen Entwurf geändert oder die Beitragskategorie aktualisiert wird. "
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/extend/plugins/post-expirator/"
+msgstr "http://wordpress.org/extend/plugins/post-expirator/"
+
+#: classes/Facade.class.php:377 views/how-to-expire.php:54
+msgid "Category: Remove"
+msgstr "Kategorie: Löschen"
+
+#: classes/Facade.class.php:376 views/how-to-expire.php:51
+msgid "Category: Add"
+msgstr "Kategorie: Hinzufügen"
+
+#: classes/Facade.class.php:375 views/how-to-expire.php:48
+msgid "Category: Replace"
+msgstr "Kategorie: Ersetzen"
+
+#: classes/Facade.class.php:372 views/how-to-expire.php:37
+msgid "Private"
+msgstr "Privat"
+
+#: classes/Facade.class.php:370 views/how-to-expire.php:31
+msgid "Delete"
+msgstr "Löschen"
+
+#: classes/Facade.class.php:369 views/how-to-expire.php:28
+msgid "Draft"
+msgstr "Entwurf"
+
+#: classes/Display.class.php:197
+msgid "Below is a dump of the debugging table, this should be useful for troubleshooting."
+msgstr "Nachstehend findet sich ein Auszug aus der Fehlerbehebungstabelle, der nützlich bei der Fehlersuche sein dürfte. "
+
+#: views/menu-diagnostics.php:97
+msgid "Event"
+msgstr "Ereignis"
+
+#: views/bulk-edit.php:23 views/menu-diagnostics.php:94 views/quick-edit.php:18
+msgid "Date"
+msgstr "Datum"
+
+#: views/menu-diagnostics.php:82
+msgid "The below table will show all currently scheduled cron events for the plugin with the next run time."
+msgstr "Die untenstehende Tabelle zeigt alle aktuell geplanten Cron-Aufträge des Plugins mit dem nächsten Ausführungszeitpunkt. "
+
+#: views/menu-diagnostics.php:65
+msgid "Current Cron Schedule"
+msgstr "Aktueller Cron-Zeitplan: "
+
+#: views/menu-diagnostics.php:52
+msgid "WP-Cron Status"
+msgstr "WP-Cron-Status:"
+
+#: views/menu-diagnostics.php:44 views/menu-diagnostics.php:47
+msgid "Purge Debug Log"
+msgstr "Fehlerbehebungs-Protokoll bereinigen "
+
+#: views/menu-diagnostics.php:35
+msgid "Enable Debugging"
+msgstr "Fehlerbehebung aktivieren"
+
+#: views/menu-diagnostics.php:20
+msgid "Disable Debugging"
+msgstr "Fehlerbehebung deaktivieren"
+
+#: views/menu-diagnostics.php:9
+msgid "Advanced Diagnostics"
+msgstr "Erweiterte Diagnose"
+
+#: classes/Display.class.php:181
+msgid "Debugging Table Emptied"
+msgstr "Fehlerbehebungstabelle geleert"
+
+#: classes/Display.class.php:174
+msgid "Debugging Enabled"
+msgstr "Fehlerbehebung aktiviert"
+
+#: classes/Display.class.php:169
+msgid "Debugging Disabled"
+msgstr "Fehlerbehebung deaktiviert"
+
+#: views/menu-defaults.php:135
+msgid "Taxonomy (hierarchical)"
+msgstr "Taxonomie (hierarchisch): "
+
+#: views/menu-defaults.php:108
+msgid "Auto-Enable?"
+msgstr "Automatische Aktivierung? "
+
+#: views/menu-defaults.php:102
+msgid "Select the default expire action for the post type."
+msgstr "Wähle die Standard-Verfallsart für diesen Beitragstyp aus. "
+
+#: views/menu-defaults.php:83
+msgid "Select whether the PublishPress Future meta box is active for this post type."
+msgstr "Wähle aus, ob die Meta-Box von PublishPress Future für diesen Beitragstyp aktiv sein soll. "
+
+#: views/menu-defaults.php:81
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: views/menu-defaults.php:65 views/menu-defaults.php:73
+msgid "Active"
+msgstr "Aktiv"
+
+#: views/menu-defaults.php:13
+msgid "Use the values below to set the default actions/values to be used for each for the corresponding post types.  These values can all be overwritten when creating/editing the post/page."
+msgstr "Benutze die untenstehenden Werte um Standardaktionen/-werte für jeden der entsprechenden Beitragstypen festzulegen. Diese Werte können beim Schreiben bzw. Bearbeiten von Beiträgen und Seiten verändert werden. "
+
+#: views/menu-defaults.php:10
+msgid "Default Expiration Values"
+msgstr "Standard-Verfallswerte"
+
+#: views/menu-advanced.php:116 views/menu-defaults.php:247
+#: views/menu-display.php:132 views/menu-editor.php:37
+#: views/menu-general.php:243
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: views/menu-display.php:125
+msgid "The inline css which will be used to style the footer text."
+msgstr "Das Inline-CSS wird benutzt um den Footer-Text zu stylen."
+
+#: views/menu-display.php:122
+msgid "This post will expire on"
+msgstr "Dieser Beitrag verfällt am"
+
+#: views/menu-display.php:116
+msgid "Footer Style"
+msgstr "Footer-Stil:"
+
+#: views/menu-display.php:98
+msgid "Enter the text you would like to appear at the bottom of every post that will expire.  The following placeholders will be replaced with the post expiration date in the following format:"
+msgstr "Gib den Text ein, den du bei den Posts, die verfallen im Fußbereich stehen haben möchtest. Die folgenden Platzhalter werden ersetzt durch den Verfallszeitpunkt des Beitrags in folgendem Format: "
+
+#: views/menu-display.php:93
+msgid "Footer Contents"
+msgstr "Footer-Text:"
+
+#: views/menu-display.php:85
+msgid "This will enable or disable displaying the post expiration date in the post footer."
+msgstr "Dies aktiviert oder deaktiviert die Anzeige des Verfallsdatums im Beitragsfooter."
+
+#: views/menu-defaults.php:124 views/menu-diagnostics.php:32
+#: views/menu-diagnostics.php:59 views/menu-display.php:83
+#: views/menu-general.php:188 views/menu-general.php:214
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: views/menu-defaults.php:116 views/menu-diagnostics.php:17
+#: views/menu-diagnostics.php:56 views/menu-display.php:78
+#: views/menu-general.php:181 views/menu-general.php:206
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: views/menu-display.php:73
+msgid "Show in post footer?"
+msgstr "Im Beitragsfooter anzeigen?"
+
+#: views/menu-display.php:66
+msgid "Enabling this below will display the expiration date automatically at the end of any post which is set to expire."
+msgstr "Die Aktivierung der Option unten zeigt das Verfallsdatum automatisch am Ende jedes Posts an, bei dem ein Verfallsdatum gesetzt wurde. "
+
+#: views/menu-display.php:64
+msgid "Post Footer Display"
+msgstr "Anzeige des Beitragsfooters"
+
+#: views/menu-general.php:159
+msgid "Sets the default expiration category for the post."
+msgstr "Legt die Standard-Verfallskategorie für den Beitrag fest."
+
+#: views/menu-general.php:140
+msgid "Default Expiration Category"
+msgstr "Standard-Verfallskategorie"
+
+#: views/menu-general.php:107
+msgid "Set the default expiration date to be used when creating new posts and pages.  Defaults to none."
+msgstr "Leg eine Standardverfallszeit für neue Beiträge und Seiten fest. Der Standardwert ist \"keine\". "
+
+#: views/menu-general.php:104
+msgid "Post/Page Publish Time"
+msgstr "Beitrags-/Seiten-Veröffentlichungszeitpunkt "
+
+#: views/menu-defaults.php:176 views/menu-defaults.php:217
+#: views/menu-general.php:101 views/menu-general.php:117
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: views/menu-defaults.php:174 views/menu-general.php:98
+msgid "None"
+msgstr "Keine"
+
+#: views/menu-defaults.php:192 views/menu-general.php:92
+msgid "Default Date/Time Duration"
+msgstr "Standard-Dauer (Datum/Zeit): "
+
+#: views/menu-general.php:75
+msgid "Time Format"
+msgstr "Zeitformat"
+
+#: views/menu-general.php:58
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#: views/menu-display.php:51 views/menu-display.php:56
+msgid "%s - format set here will override the value set on the settings page"
+msgstr "%s – das hier eingestellte Format überschreibt den Wert, der in den Einstellungen gesetzt wurde. "
+
+#: classes/Display.class.php:253 classes/Display.class.php:315
+#: classes/Display.class.php:365
+msgid "Saved Options!"
+msgstr "Optionen gesichert!"
+
+#: views/menu-diagnostics.php:29 views/tabs.php:44
+msgid "View Debug Logs"
+msgstr "Fehlerbehebungsprotokoll ansehen "
+
+#: views/tabs.php:32
+msgid "Diagnostics"
+msgstr "Diagnosen"
+
+#: views/menu-general.php:54 views/tabs.php:17
+msgid "Defaults"
+msgstr "Standard-Einstellungen "
+
+#: views/classic-metabox.php:166
+msgid "Taxonomy Name"
+msgstr "Taxonomie-Name"
+
+#: views/classic-metabox.php:148
+msgid "More than 1 heirachical taxonomy detected.  You must assign a default taxonomy on the settings screen."
+msgstr "Es wurde mehr als eine hierarchische Taxonomie gefunden. Du musst in den Einstellungen eine Standard-Taxonomie zuweisen. "
+
+#: views/classic-metabox.php:143
+msgid "You must assign a heirarchical taxonomy to this post type to use this feature."
+msgstr "Um dieses Feature zu nutzen, musst du deinem Beitragstyp hierarchische Taxonomien zuweisen."
+
+#: classes/Facade.class.php:382 views/bulk-edit.php:129
+#: views/classic-metabox.php:135 views/quick-edit.php:92
+msgid "Expiration Categories"
+msgstr "Verfallskategorien"
+
+#: classes/Facade.class.php:380 views/bulk-edit.php:111
+#: views/classic-metabox.php:117 views/menu-defaults.php:92
+#: views/quick-edit.php:76
+msgid "How to expire"
+msgstr "Verfallsart"
+
+#: views/bulk-edit.php:96 views/classic-metabox.php:110 views/quick-edit.php:63
+msgid "Minute"
+msgstr "Minute"
+
+#: views/bulk-edit.php:89 views/classic-metabox.php:85 views/quick-edit.php:57
+msgid "Hour"
+msgstr "Stunde"
+
+#: views/bulk-edit.php:75 views/classic-metabox.php:78 views/quick-edit.php:43
+msgid "Day"
+msgstr "Tag"
+
+#: views/bulk-edit.php:51 views/classic-metabox.php:56 views/quick-edit.php:21
+msgid "Month"
+msgstr "Monat"
+
+#: views/bulk-edit.php:82 views/classic-metabox.php:27 views/quick-edit.php:50
+msgid "Year"
+msgstr "Jahr"
+
+#: views/classic-metabox.php:18
+msgid "The published date/time will be used as the expiration value"
+msgstr "Das veröffentlichte Datum/Zeit wird als Verfallszeitpunkt benutzt"
+
+#: classes/Facade.class.php:379 views/bulk-edit.php:26
+#: views/classic-metabox.php:11 views/quick-edit.php:12
+msgid "Enable Post Expiration"
+msgstr "Aktiviere die Beitragslöschung "
+
+#: views/expire-column.php:24
+msgid "Never"
+msgstr "Nie"
+
+#: post-expirator.php:97 post-expirator.php:183
+msgid "Expires"
+msgstr "Verfällt"
+
+#: post-expirator.php:49
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: post-expirator.php:17
+msgid "Post expires at EXPIRATIONTIME on EXPIRATIONDATE"
+msgstr "Der Beitrag verfällt zur festgelegten VERFALLSZEIT am VERFALLSDATUM. "
+
+#: post-expirator.php:16
+msgid "g:ia"
+msgstr "g:ia"
+
+#: post-expirator.php:15
+msgid "l F jS, Y"
+msgstr "l F jS, Y"
+
+#: post-expirator-debug.php:87
+msgid "Message"
+msgstr "Nachricht"
+
+#: post-expirator-debug.php:86
+msgid "Timestamp"
+msgstr "Zeitstempel"
+
+#: post-expirator-debug.php:81
+msgid "Debugging table is currently empty."
+msgstr "Die Fehlerbehebungstabelle ist momentan leer."

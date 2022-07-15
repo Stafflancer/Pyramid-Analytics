@@ -1,0 +1,44 @@
+{
+    "key": "group_61f3ab51a872b",
+    "title": "Page: Solutions",
+    "fields": [
+        {
+            "key": "field_61f39d1d19c78",
+            "label": "Solution",
+            "name": "solution",
+            "type": "text",
+            "instructions": "solution",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "38"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1645223146
+}

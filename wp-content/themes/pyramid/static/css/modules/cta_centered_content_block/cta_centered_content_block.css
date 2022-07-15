@@ -1,0 +1,75 @@
+.cta_centered_content_block {
+    padding: 41px 0;
+}
+@media (max-width: 576px) {
+    .cta_centered_content_block {
+        padding: 40px 0;
+    }
+}
+.cta_centered_content_block.heading_black h2 {
+    color: #3e3e3e;
+}
+.cta_centered_content_block.heading_white h2 {
+    color: #f7f9f7;
+}
+.cta_centered_content_block .section-holder {
+    text-align: center;
+}
+.cta_centered_content_block h2 {
+    font-size: 36px;
+    font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+    margin: 0 0 16px 0;
+}
+.cta_centered_content_block p {
+    max-width: 70%;
+    margin: 30px auto;
+}
+
+@media (max-width: 992px) {
+    .cta_centered_content_block h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .cta_centered_content_block h2 {
+        font-size: 26px;
+    }
+    .CTA-light-pink .section-holder p {
+        max-width: 100% !important;
+        font-size: 16px;
+    }
+    .cta_centered_content_block p {
+        max-width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .cta_centered_content_block h2 {
+        font-size: 22px;
+    }
+    .CTA-light-pink .section-holder .button {
+        margin: 5px;
+    }
+}
+
+.CTA-light-pink {
+    padding: 100px 0;
+}
+.CTA-light-pink .section-holder h2, .CTA-light-pink .section-holder p {
+    color: #fff;
+}
+.CTA-light-pink .section-holder p {
+    max-width: 75%;
+    margin: 30px auto;
+}
+.CTA-light-pink .section-holder .button {
+    border-width: 2px;
+    padding: 15px 40px;
+}
+.CTA-light-pink .section-holder .button:nth-child(3) {
+    background-color: #fff;
+    color: #6e57b5;
+}
+.CTA-light-pink .section-holder .button:hover {
+    color: #6e57b5;
+}

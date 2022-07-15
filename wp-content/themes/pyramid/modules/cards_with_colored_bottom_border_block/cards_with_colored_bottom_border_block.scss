@@ -1,0 +1,165 @@
+@import '../../src/scss/vars';
+
+.cards_with_colored_bottom_border_block {
+	padding: 149px 0 91px;
+
+	@media (max-width: $lg) {
+		padding: 100px 0 70px;
+	}
+
+	@media (max-width: $md) {
+		padding: 80px 0 50px;
+	}
+
+	@media (max-width: $sm) {
+		padding: 60px 0 30px;
+	}
+
+	@media (max-width: $xs) {
+		padding: 40px 0 20px;
+	}
+
+	&.bg-gray {
+		background-color: #f7f9f7;
+	}
+
+	/*settings*/
+	&.heading_black h2 {
+		color: $black-type-1;
+	}
+
+	&.heading_white h2 {
+		color: $white-type-1;
+	}
+
+	&.text_black .cards .item {
+		color: $black-type-1;
+	}
+
+	&.text_white .cards .item {
+		color: $white-type-1;
+	}
+
+	// Settings
+
+	h2 {
+		text-align: center;
+		margin: 0;
+		font-family: $pt-sans;
+		font-weight: 700;
+	}
+
+	.image-holder {
+		width: 100%;
+		max-width: 1347px;
+		margin: 30px auto;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.cards {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		@media (max-width: $md) {
+			justify-content: center;
+		}
+
+		.item {
+			width: calc(33.33% - 20px);
+			max-width: 361px;
+			background-color: $white;
+			padding: 52px 33px 45px;
+			border-bottom: 22px solid black;
+			border-radius: 5px;
+			text-align: center;
+			box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+			color: $black-type-1;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 10px 30px;
+
+			@media (max-width: $md) {
+				width: calc(50% - 20px);
+			}
+
+			@media (max-width: $sm) {
+				width: 100%;
+				margin: 0 0 30px;
+				padding: 35px 25px;
+				border-bottom-width: 15px;
+			}
+
+			@media (max-width: $xs) {
+				margin-bottom: 20px;
+				padding: 30px 20px;
+				border-bottom-width: 10px;
+			}
+
+			&:nth-child(3n+1) {
+				border-bottom-color: $green;
+			}
+
+			&:nth-child(3n+2) {
+				border-bottom-color: $yellow;
+			}
+
+			&:nth-child(3n+3) {
+				border-bottom-color: $sky-blue;
+			}
+
+			h3 {
+				font-size: 24px;
+				margin-bottom: 11px;
+				font-family: $museo-slab;
+				font-weight: 700;
+
+				@media (max-width: $md) {
+					font-size: 22px;
+				}
+
+				@media (max-width: $sm) {
+					font-size: 20px;
+				}
+
+				@media (max-width: $xs) {
+					font-size: 18px;
+				}
+			}
+
+			.content {
+				line-height: 30px;
+				margin-bottom: 24px;
+
+				@media (max-width: $xs) {
+					font-size: 16px;
+					line-height: 28px;
+					margin-bottom: 15px;
+				}
+
+				p {
+					margin: 0;
+				}
+			}
+
+			.link {
+				font-family: $open-sans;
+				font-weight: bold;
+				color: $black-type-1;
+				margin-top: auto;
+
+				@media (max-width: $xs) {
+					font-size: 16px;
+				}
+
+				&:hover {
+					color: $sky-blue;
+				}
+			}
+		}
+	}
+}

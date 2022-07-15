@@ -1,0 +1,131 @@
+@import '../../src/scss/vars';
+
+.team_members_block {
+	padding: 149px 0 70px;
+
+	@media (max-width: $md) {
+		padding: 100px 0 70px;
+	}
+
+	@media (max-width: $sm) {
+		padding: 80px 0 35px;
+	}
+
+	@media (max-width: $xs) {
+		padding: 40px 0 30px;
+	}
+
+	/*settings*/
+	&.heading_black {
+		h2 {
+			color: $black-type-1;
+		}
+	}
+
+	&.heading_white {
+		h2 {
+			color: $white-type-1;
+		}
+	}
+
+	&.text_black {
+		.team-members .team-member {
+			color: $black-type-1;
+		}
+	}
+
+	&.text_white {
+		.team-members .team-member {
+			color: $white-type-1;
+		}
+	}
+
+	/*settings*/
+	h2 {
+		text-align: center;
+		font-family: $pt-sans;
+		font-weight: 700;
+		margin: 0 0 65px 0;
+
+		@media (max-width: $md) {
+			margin: 0 0 50px 0;
+		}
+
+		@media (max-width: $sm) {
+			margin: 0 0 40px 0;
+		}
+
+		@media (max-width: $xs) {
+			margin: 0 0 30px 0;
+		}
+	}
+
+	.thumb img {
+		cursor: pointer;
+		margin-bottom: 3.5rem;
+		min-width: 180px;
+
+		@media (max-width: $xs) {
+			min-width: 130px;
+		}
+	}
+
+	.team-members {
+		margin: 0 18%;
+
+		@media (max-width: 992px) {
+			margin: 0;
+		}
+	}
+
+	.team-member {
+		margin-bottom: 4rem;
+		width: 30%;
+
+		@media (max-width: 767px) {
+			width: 50%;
+		}
+
+		@media (max-width: 576px) {
+			width: 100%;
+		}
+	}
+
+	.bottom-holder {
+		font-family: $museo-slab;
+		font-weight: 500;
+		letter-spacing: .42px;
+
+		.name {
+			font-size: 21px;
+			font-weight: 500;
+			margin: 0;
+		}
+
+		.position {
+			font-size: 15px;
+			margin: 5px 0 0;
+		}
+	}
+
+	.content {
+		font-size: 18px;
+		line-height: 30px;
+		max-width: 337px;
+
+		@media (max-width: $md) {
+			max-width: 100%;
+		}
+
+		@media (max-width: $xs) {
+			font-size: 16px;
+			line-height: 25px;
+		}
+	}
+
+	.btn-holder {
+		@media (max-width: $xs) {
+			margin-top: 30px;
+		}
+	}
+}

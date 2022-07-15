@@ -1,0 +1,1 @@
+!function(o){o(document).on("ready",(function(){var n=o(".awards_block .awards");n.length&&o(window).width()<576&&n.each((function(){o(this).slick({dots:!0,arrows:!1,slidesToShow:1,slidesToScroll:1})}))}))}(jQuery);

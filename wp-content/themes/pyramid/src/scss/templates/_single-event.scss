@@ -1,0 +1,109 @@
+body.single-events .custom-container {
+	max-width: 1320px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+body.single-events .blog-post {
+	padding: 180px 0 100px;
+	background: #eee;
+}
+body.single-events .blogpost-title {
+	font-size: 52px;
+	margin: 15px 0;
+	line-height: 62px;
+	font-family: $pt-sans;
+	font-weight: bold;
+	color: #3E3E3E;
+}
+body.single-events .custom-container .margin-right-50 {
+	margin-right: 50px;
+}
+body.single-events .custom-container .breadcrumb {
+	font: normal normal bold 16px/24px $open-sans;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+body.single-events .custom-container .breadcrumb  span{
+	color: #3e3e3e;
+}
+body.single-events .custom-container .breadcrumb  .first {
+	font-weight: 400;
+}
+body.single-events .custom-container .margin-right-50 h2 {
+	font-size: 52px;
+	line-height: 62px;
+	font-family: $pt-sans;
+	font-weight: bold;
+	margin-top: 45px;
+	color: #3E3E3E;
+}
+body.single-events .custom-container p {
+	font-size: 18px;
+	font-family: $open-sans;
+	color: #3E3E3E;
+	line-height: 26px;
+}
+body.single-events .custom-container .heading-2 {
+	font-size: 40px;
+	color: #3E3E3E;
+	font-weight: bold;
+	padding-top: 17px;
+}
+body.single-events .custom-container .list ul li::marker {
+	color: #0eafdb;
+}
+body.single-events .custom-container .list ul li {
+	font-size: 17px;
+	padding: 7px 0;
+}
+body.single-events .form-box {
+	background: #fff;
+	-webkit-box-shadow: 0 0 20px #00000033;
+	box-shadow: 0 0 20px #00000033;
+	border-radius: 5px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	padding: 40px 50px;
+}
+
+
+@media (max-width: 992px){
+	footer{
+		background-size: cover !important;
+	}
+	body.single-events .custom-container .col-12.col-md-8,
+	body.single-events .custom-container .col-12.col-md-4{
+		max-width: 100%;
+		flex: 100%;
+	}
+	body.single-events .custom-container .margin-right-50 {
+		margin-right: 0;
+	}
+	body.single-events .blog-post {
+		padding: 113px 0 100px;
+	}
+}
+
+@media (max-width: 766px) {
+	body.single-events .blog-post {
+		padding: 90px 0 32px !important;
+	}
+	body.single-events .custom-container .margin-right-50 h2 {
+		font-size: 40px;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	body.single-events .custom-container .heading-2 {
+		font-size: 34px;
+	}
+	body.single-events .form-box{
+		padding: 20px;
+	}
+	body.single-events .custom-container p,
+	body.single-events .custom-container .list ul li {
+		font-size: 15px;
+		line-height: 22px;
+	}
+}

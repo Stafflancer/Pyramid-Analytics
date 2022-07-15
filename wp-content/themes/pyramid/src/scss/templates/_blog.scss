@@ -1,0 +1,13 @@
+.blog-section {
+	&.gray {
+		background: var(--color-f7f9f7);
+	}
+
+	.title-heading {
+		margin-bottom: 18px;
+	}
+
+	.filter-margin-low {
+		margin-bottom: 2rem;
+	}
+}

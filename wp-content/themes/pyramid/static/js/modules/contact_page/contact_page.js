@@ -1,0 +1,5 @@
+window.onload = function () {
+	let myiFrame = document.getElementById( 'hs-form-iframe-0' );
+	let doc = myiFrame.contentDocument;
+	doc.body.innerHTML = doc.body.innerHTML + '<style>form#hsForm_c201b9d5-1fc7-4f3c-9d6d-b1e027edf118 select{background:#fff;border-color:#5b6770;color:#3e3e3e;font-family:"Open Sans",sans-serif;line-height:0!important;padding:0 15px;min-height:27px}#hsForm_c201b9d5-1fc7-4f3c-9d6d-b1e027edf118 label{font-size:16px!important;line-height:24px;color:#3e3e3e!important;font-family:"Open Sans",sans-serif}form#hsForm_c201b9d5-1fc7-4f3c-9d6d-b1e027edf118 input[type=submit]{background:#f2542d;border-color:#f2542d;border-radius:50px;font-size:20px;line-height:22px;padding:12px 50px;font-weight:400;font-family:"Open Sans",sans-serif;text-transform:uppercase}form#hsForm_c201b9d5-1fc7-4f3c-9d6d-b1e027edf118 .actions{text-align:center}form#hsForm_c201b9d5-1fc7-4f3c-9d6d-b1e027edf118 input[type=submit]:hover{background:#489fdf;border-color:#489fdf;}@media (max-width:450px){#hsForm_c201b9d5-1fc7-4f3c-9d6d-b1e027edf118 input[type="submit"]{font-size: 16px !important;white-space: normal;padding: 9px 21px !important;width: 100%;}}</style>';
+};

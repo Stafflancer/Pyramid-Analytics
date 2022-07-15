@@ -1,0 +1,113 @@
+.cta-side-form-block {
+	padding: 100px 0 50px;
+}
+
+.cta-side-form-block h2 {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 62px;
+	margin: 0 auto 98px;
+}
+
+.heading_black h2 {
+	color: #3e3e3e;
+}
+
+.heading_white h2 {
+	color: #f7f9f7;
+}
+
+.cta-side-form-block .left-side-content {
+	margin-top: 30px;
+}
+
+.cta-side-form-block .left-side-content h5,
+.cta-side-form-block .left-side-content p,
+.cta-side-form-block .left-side-content li {
+	color: #3e3e3e;
+	font: normal normal normal 18px/30px var(--font-family-open-sans, 'Open Sans');
+}
+
+.cta-side-form-block .left-side-content h5 {
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom: 11px;
+}
+
+.cta-side-form-block .left-side-content ul {
+	margin: 0 0 22px;
+	padding: 0;
+}
+
+.cta-side-form-block .left-side-content ul li {
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+.cta-side-form-block .left-side-content ul li:before {
+	content: '\2022';
+	color: #0eafdb;
+	margin-right: 10px;
+	height: 5px;
+	width: 5px;
+}
+
+.cta-side-form-block .left-side-content a {
+	text-decoration: underline;
+}
+
+.cta-side-form-block .form-code-block {
+	background: #fff;
+	box-shadow: 0 0 5px 0 #5b6770;
+	border-radius: 5px;
+	padding: 20px 32px;
+}
+
+@media (max-width: 1200px) {
+	.cta-side-form-block h2 {
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 992px) {
+	.cta-side-form-block .left-side-content {
+		margin-top: 0;
+	}
+
+	.cta-side-form-block .left-side-content h2 {
+		font-size: 32px;
+		line-height: 38px;
+	}
+
+	.cta-side-form-block .left-side-content h5 {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+	.cta-side-form-block .left-side-content ul li {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.cta-side-form-block h2 {
+		margin-bottom: 40px;
+	}
+
+	.cta-side-form-block .left-side-content p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.cta-side-form-block .right-side-content {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 576px) {
+	.cta-side-form-block h2 {
+		margin-bottom: 30px;
+	}
+}

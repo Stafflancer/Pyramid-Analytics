@@ -1,0 +1,31 @@
+.pagination {
+	padding-bottom: 50px;
+	text-align: center;
+	width: 100%;
+
+	li {
+		display: inline;
+		margin-right: 10px;
+
+		a {
+			color: #3e3e3e;
+			font-family: $open-sans;
+			font-size: 15px;
+		}
+
+		&.active a {
+			color: var(--character-spacing-0-16);
+		}
+	}
+
+	.page-numbers {
+		padding: 0 13px;
+		font-weight: 500;
+
+		.current {
+			color: #0eafdb;
+			font-weight: 700;
+			text-decoration: underline;
+		}
+	}
+}

@@ -1,0 +1,281 @@
+.resources {
+    background: rgba(62, 62, 62, 0.09);
+    padding: 150px 0 160px;
+}
+@media screen and (max-width: 991.98px) {
+    .resources {
+        padding: 100px 0;
+    }
+}
+@media screen and (max-width: 479.98px) {
+    .resources {
+        padding: 40px 0;
+    }
+}
+.resources .breadcrumbs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 33px;
+    padding: 0;
+}
+.resources .breadcrumbs li {
+    font: normal normal bold 16px/24px "Open Sans",sans-serif;
+    color: #3e3e3e;
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 0;
+}
+.resources .breadcrumbs li:not(:last-child) {
+    margin-right: 5px;
+}
+.resources .breadcrumbs li a {
+    font-weight: 400;
+    color: #3e3e3e;
+}
+.resources .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@media screen and (max-width: 991.98px) {
+    .resources .flex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.resources .content {
+    max-width: 804px;
+    margin-right: 40px;
+}
+@media screen and (max-width: 991.98px) {
+    .resources .content {
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+.resources .container {
+    max-width: 1480px;
+}
+.resources h1 {
+    font: normal normal bold 52px/62px "PT Sans",sans-serif;
+    letter-spacing: 0;
+    color: #3e3e3e;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+@media screen and (max-width: 479.98px) {
+    .resources h1 {
+        font: normal normal bold 42px/52px "PT Sans",sans-serif;
+    }
+}
+.resources h6 {
+    font: normal normal 600 18px/26px "Open Sans",sans-serif;
+    color: #3e3e3e;
+    margin-bottom: 33px;
+}
+.resources h2 {
+    font: normal normal bold 48px/58px "PT Sans",sans-serif;
+    color: #3e3e3e;
+    margin-bottom: 33px;
+}
+@media screen and (max-width: 479.98px) {
+    .resources h2 {
+        font: normal normal bold 35px/48px "PT Sans",sans-serif;
+    }
+}
+.resources p {
+    margin-bottom: 38px;
+}
+.resources p {
+    font: normal normal normal 18px/26px "Open Sans",sans-serif;
+    color: #3e3e3e;
+}
+.resources h3 {
+    font: normal normal 500 24px/34px "MuseoSlab",sans-serif;
+    color: #3e3e3e;
+    margin-bottom: 33px;
+}
+.resources .content-list ul li {
+    padding-left: 20px;
+    list-style: none;
+    margin-bottom: 24px;
+    position: relative;
+    font: normal normal normal 18px/26px "Open Sans",sans-serif;
+    color: #3e3e3e;
+}
+@media screen and (max-width: 479.98px) {
+    .resources .content-list ul li {
+        margin-bottom: 15px;
+    }
+}
+.resources .content-list ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #0eafdb;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.resources .content-list ul li > ul {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 479.98px) {
+    .resources .content-list ul li > ul {
+        margin-top: 20px;
+        padding-left: 0;
+    }
+}
+.resources .form-block {
+    background: #fff;
+    -webkit-box-shadow: 0 0 20px #00000033;
+    box-shadow: 0 0 20px #00000033;
+    border-radius: 5px;
+    width: 526px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 40px 50px;
+}
+@media screen and (max-width: 1266px) {
+    .resources .form-block {
+        width: 400px;
+        padding: 30px 20px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .resources .form-block {
+        width: 100%;
+        padding: 40px 63px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 479.98px) {
+    .resources .form-block {
+        margin-top: 30px;
+        padding: 30px 20px;
+    }
+}
+.resources .form-block .check {
+    position: relative;
+    margin-bottom: 25px;
+}
+.resources .form-block .check input {
+    position: absolute;
+    display: none;
+}
+.resources .form-block .check input:checked + label:before {
+    background: #489fdf;
+    border: 1px solid #489fdf;
+}
+.resources .form-block .check label {
+    font: normal normal normal 14px/20px "Open Sans",sans-serif;
+    margin-bottom: 0;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+}
+.resources .form-block .check label a {
+    color: #489fdf;
+    text-decoration: underline;
+}
+.resources .form-block .check label a:hover {
+    text-decoration: none;
+}
+.resources .form-block .check label::before {
+    content: "";
+    border: 1px solid #5b6770;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.resources .form-block h3 {
+    font: normal normal bold 24px/34px "PT Sans",sans-serif;
+    color: #3e3e3e;
+    text-align: center;
+    margin: 0 0 30px;
+    padding-bottom: 22px;
+    position: relative;
+}
+.resources .form-block h3:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    background: #489fdf;
+    height: 2px;
+    margin: 0 auto;
+}
+.resources .form-block .divider {
+    width: 57px;
+    height: 2px;
+    background: #4fadd7;
+    margin: 0 auto 30px;
+}
+.resources .form-block .image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resources .form-block .image img {
+    max-width: 100px;
+}
+.resources .form-block input {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #5b6770;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font: normal normal normal 16px/24px "Open Sans",sans-serif;
+    color: #3e3e3e;
+}
+.resources .form-block .captcha {
+    margin-bottom: 70px;
+}
+@media screen and (max-width: 479.98px) {
+    .resources .form-block .captcha {
+        margin-bottom: 30px;
+    }
+}
+.resources .form-block button {
+    width: 237px;
+    height: 66px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #755cc0;
+    border-radius: 100px;
+    color: #f7f9f7;
+    text-transform: uppercase;
+    font: normal normal bold 20px/22px "Open Sans",sans-serif;
+    border: 0;
+    margin: 0 auto;
+}
+.resources .form-block button:hover {
+    background: #f2542d;
+}

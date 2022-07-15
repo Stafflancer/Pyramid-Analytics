@@ -1,0 +1,268 @@
+.carousel_video_testimonials_block.heading_black h2 {
+	color: #3e3e3e
+}
+
+.carousel_video_testimonials_block.heading_white h2 {
+	color: #f7f9f7
+}
+
+.carousel_video_testimonials_block h2 {
+	text-align: center;
+	margin: 0 auto 98px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+	.carousel_video_testimonials_block h2 {
+		margin-bottom: 60px
+	}
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block h2 {
+		margin-bottom: 40px
+	}
+}
+
+@media (max-width: 576px) {
+	.carousel_video_testimonials_block h2 {
+		margin-bottom: 30px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel {
+	max-width: 1120px;
+	margin: 0 auto
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-next, .carousel_video_testimonials_block .s_carousel .slick-prev {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 26px
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .slick-next, .carousel_video_testimonials_block .s_carousel .slick-prev {
+		display: none !important
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-prev {
+	left: -92px;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-right: 18px solid #0eafdb;
+	-webkit-transition: border-right-color .15s;
+	-o-transition: border-right-color .15s;
+	transition: border-right-color .15s
+}
+
+@media (max-width: 1340px) {
+	.carousel_video_testimonials_block .s_carousel .slick-prev {
+		left: -25px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-prev:hover {
+	border-right-color: #f2542d
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-next {
+	right: -92px;
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-left: 18px solid #0eafdb;
+	-webkit-transition: border-left-color .15s;
+	-o-transition: border-left-color .15s;
+	transition: border-left-color .15s
+}
+
+@media (max-width: 1340px) {
+	.carousel_video_testimonials_block .s_carousel .slick-next {
+		right: -25px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-next:hover {
+	border-left-color: #f2542d
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-dots {
+	margin-top: 15px
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-dots li {
+	background-image: none;
+	background: 0 0;
+	border-radius: 50%;
+	border: 1px solid #3e3e3e;
+	opacity: 1;
+	width: 11px;
+	height: 11px;
+	-webkit-transition: background-color .15s;
+	-o-transition: background-color .15s;
+	transition: background-color .15s
+}
+
+.carousel_video_testimonials_block .s_carousel .slick-dots li.active, .carousel_video_testimonials_block .s_carousel .slick-dots li.slick-active, .carousel_video_testimonials_block .s_carousel .slick-dots li:hover {
+	background-color: #3e3e3e
+}
+
+.carousel_video_testimonials_block .s_carousel .item {
+	padding: 0 10px
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		padding: 0
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item:not(.static) {
+	position: relative
+}
+
+.carousel_video_testimonials_block .s_carousel .item:not(.static) .info-box {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item:not(.static) .info-box {
+		position: static
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item .info-box {
+	width: 100%;
+	max-width: 290px;
+	margin-top: 59px
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box {
+		margin: 0;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item .info-box .thumb {
+	margin-bottom: 24px
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box .thumb {
+		margin-bottom: 20px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item .info-box .thumb img {
+	width: 100%;
+	height: 255px;
+	display: block;
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box .thumb img {
+		height: auto;
+		max-width: 250px
+	}
+}
+
+@media (max-width: 576px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box .thumb img {
+		max-width: 200px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item .info-box .title {
+	font-size: 20px;
+	letter-spacing: .4px;
+	font-family: 'MuseoSlab', sans-serif;
+	font-weight: 700;
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box .title {
+		font-size: 18px
+	}
+}
+
+@media (max-width: 576px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box .title {
+		font-size: 16px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item .info-box .info {
+	font-size: 20px;
+	letter-spacing: .4px;
+	font-family: MuseoSlab-Medium, sans-serif
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box .info {
+		font-size: 18px
+	}
+}
+
+@media (max-width: 576px) {
+	.carousel_video_testimonials_block .s_carousel .item .info-box .info {
+		font-size: 16px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item .video-holder {
+	max-width: calc(100% - 260px);
+	margin-left: auto;
+	height: 480px
+}
+
+@media (max-width: 1200px) {
+	.carousel_video_testimonials_block .s_carousel .item .video-holder {
+		width: 85%
+	}
+}
+
+@media (max-width: 768px) {
+	.carousel_video_testimonials_block .s_carousel .item .video-holder {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 30px;
+		height: 250px
+	}
+}
+
+.carousel_video_testimonials_block .s_carousel .item .video-holder video {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover
+}

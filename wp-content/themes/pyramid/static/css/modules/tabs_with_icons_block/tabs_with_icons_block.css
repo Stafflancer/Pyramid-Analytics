@@ -1,0 +1,351 @@
+.tabs_with_icons_block.heading_black.text_black .container{
+    max-width: 1370px;
+}
+.slick-track .tabs-with-icon-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+.tab-box-content ul {
+    margin-bottom: 15px;
+        margin-left: 25px;
+        list-style-type:unset;
+}
+.tab-box .tabs-icon-content {
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 8px;
+}
+.tab-box-content ::marker {
+    color: #0eafdb;
+}
+
+.tabs_with_icons_block .tagline {
+    color: #3E3E3E;
+    font-size: 24px;
+    font-family: 'MuseoSlab', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+.tabs_with_icons_block h2 {
+    color: #3e3e3e;
+    line-height: 58px;
+    text-align: center;
+    margin: 0 auto 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+.tabs_with_icons_block .media_content > p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #3E3E3E;
+    text-align: center;
+    max-width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto 30px;
+}
+.tab-menu {
+    margin-top: 60px;
+}
+.tab-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.tab-menu ul li {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    text-align: center;
+}
+.tab-menu ul li a {
+    letter-spacing: 0.44px;
+    padding: 20px 26px;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s all;
+    color: #3E3E3E;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
+    font-family: 'MuseoSlab', sans-serif;
+    text-decoration: underline;
+    opacity: 0.65;
+}
+.tab-menu ul li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -34px;
+    width: 100%;
+    height: 37px;
+    background: #EAE8E8;
+}
+.tab-menu ul li a.active:before {
+    background: #FFCB47;
+
+}
+.tab-menu ul li a.active {
+    font-weight: 700;
+    opacity: 1;
+}
+.tab-menu ul li a span {
+    display: block;
+}
+.tab-box {
+    display: none;
+}
+.tab-main-box {
+    background: #fff;
+    box-shadow: 10px 10px 30px #0000001a;
+    border-radius: 5px;
+    padding: 114px 50px 69px;
+    max-width: 100%;
+    margin: 34px auto;
+}
+.tab-box-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.tab-box-inner.media-position-left .tab-box-image,
+.tab-box-inner.media-position-right .tab-box-content {
+    order: 1;
+}
+.tab-box-inner.media-position-left .tab-box-content,
+.tab-box-inner.media-position-right .tab-box-image{
+    order: 2;
+}
+.tab-box-inner.media-position-left .tabs-with-icon-btn,
+.tab-box-inner.media-position-right .tabs-with-icon-btn {
+    order: 3;
+}
+.tab-box-inner .tab-box-image {
+    max-width: 50%;
+    flex: 35%;
+    padding: 0 15px;
+}
+.tab-box-inner .tab-box-content {
+    max-width: 50%;
+    flex: 60%;
+    padding: 0 20px;
+}
+.tab-box-inner .tab-box-image {
+    text-align: center;
+}
+.tabs_with_icons_block .tab-box-inner .tab-box-content h2 {
+    font-size: 36px;
+    line-height:40px;
+    font-family: 'MuseoSlab', sans-serif;
+    font-weight: 700;
+    color: #1d252d;
+    margin-bottom: 36px;
+    text-align: left;
+}
+.tab-box-inner .tab-box-content p {
+    color: #1d252d;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.tab-box-inner .tab-box-content h5{
+    font-size: 24px;
+    font-family: 'MuseoSlab', sans-serif;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 11px;
+    color: #3E3E3E;
+}
+.tab-menu ul li:nth-child(1) a.active svg path:nth-child(2) {
+    fill: #ffcb47;
+}
+.tab-menu ul li:nth-child(1) a.active svg path:nth-child(1) {
+    fill: #0eafdb;
+}
+.tab-menu ul li:nth-child(2) a.active svg path:first-child,
+.tab-menu ul li:nth-child(2) a.active svg path:last-child {
+    fill: #00bd9d;
+}
+.tab-menu ul li:nth-child(2) a.active svg path:nth-child(2) {
+    fill: #ffcb47;
+}
+.tab-menu ul li:nth-child(3) a.active svg path:first-child {
+    fill: #0eafdb;
+}
+.tab-menu ul li:nth-child(3) a.active svg path:nth-child(2) {
+    fill: #f2542d;
+}
+.tab-menu ul li:nth-child(3) a.active svg path:nth-child(3) {
+    fill: #ffcb47;
+}
+.tab-menu ul li:nth-child(4) a.active svg path:nth-child(3) {
+    fill: #ffcb47;
+}
+.tab-menu ul li:nth-child(4) a.active svg path:nth-child(2) {
+    fill: #755cc0;
+}
+.tab-menu ul li:nth-child(4) a.active svg path:nth-child(1) {
+    fill: #0eafdb;
+}
+.tab-menu ul li:nth-child(5) a.active svg path:nth-child(3) {
+    fill: #0eafdb;
+}
+.tab-menu ul li:nth-child(5) a.active svg path:nth-child(2) {
+    fill: #00bd9d;
+}
+.tab-menu ul li:nth-child(5) a.active svg path:nth-child(1) {
+    fill: #ffcb47;
+}
+.tab-menu ul li:nth-child(6) a.active svg path:nth-child(1),
+.tab-menu ul li:nth-child(6) a.active svg path:nth-child(2) {
+    fill: #ffcb47;
+}
+.tab-menu ul li:nth-child(6) a.active svg path:nth-child(3),
+.tab-menu ul li:nth-child(6) a.active svg path:nth-child(4) {
+    fill: #f2542d;
+}
+.tab-menu ul li:nth-child(6) a.active svg path:nth-child(5) {
+    fill: #0eafdb;
+}
+/*21-05-2022*/
+.tab-teaser .slick-arrow svg {
+    fill: #00BD9D;
+    width: 22px;
+    height: 33px;
+}
+.tab-teaser .slick-arrow {
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    height: 33px;
+    cursor: pointer;
+}
+.tab-teaser .slick-prev {
+    left: -63.25px;
+}
+.tab-teaser .slick-next {
+    right: -63.25px;
+}
+.tab-box-image img {
+    margin: 0 auto;
+}
+.tab-box-inner .tab-box-image .tabs-icon-content {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+@media(max-width: 1366px){
+.tabs_with_icons_block .tab-teaser .slick-next {
+    right: 9px;
+}
+.tabs_with_icons_block .tab-teaser .slick-prev {
+    left: 9px;
+}
+}
+@media(max-width: 1199px){
+    .sap_resources_block .sap-resources {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sap_resources_block .sap-resources .resources-contnet-block {
+        width: 100%;
+        text-align: center;
+        margin:0 auto 30px;
+    }
+    .sap_resources_block .sap-resources .resources-contnet-block h3{margin: auto;}
+    .sap_resources_block .sap-resources .resources-button-block .button.white {
+        font-size: 16px;
+        padding: 16px 50px 16px;
+    }
+    .sap_resources_block {
+        width: 100%;
+        padding: 80px 0 80px;
+    }
+}
+@media(max-width: 992px){
+    .tab-menu ul {
+        flex-wrap: wrap;
+    }
+    .tab-menu ul li {
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
+    .tab-menu ul li a {
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+    .tab-menu ul li a:before {
+        bottom: -12px;
+        height: 22px;
+    }
+    .tab-main-box {
+        padding: 50px 30px 50px;
+        margin: 12px auto;
+    }
+}
+@media(max-width: 768px){
+    .tab-menu ul li {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .tab-box-inner .tab-box-content, .tab-box-inner .tab-box-image {
+        max-width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    .tab-box-inner .tab-box-content h2 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .tab-box-inner .tab-box-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .tab-teaser .tab-main-box {
+        padding: 30px;
+        max-width: 100%;
+            margin-top: 40px;
+    }
+    .tab-menu ul li a {
+        font-size: 16px;
+        word-break: break-word;
+        white-space: nowrap;
+        padding: 10px 20px;
+    }
+    .tab-menu ul li a:before {
+        height: 7px;
+        bottom: -4px;
+    }
+    .main .tabs_with_icons_block h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .tabs_with_icons_block .media_content > p {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .sap_resources_block .sap-resources .resources-contnet-block h3{
+        font-size: 18px;
+    }
+}

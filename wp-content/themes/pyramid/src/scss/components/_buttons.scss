@@ -1,0 +1,102 @@
+button {
+	appearance: none;
+	outline: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	font-family: $open-sans;
+	font-weight: bold;
+	background: none;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+.button {
+	background-color: $orange;
+	border-radius: 100px;
+	color: $white-type-1;
+	display: inline-block;
+	font-family: $open-sans;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.32px;
+	line-height: 24px;
+	padding: 15px 56px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color $delay;
+
+	@media (max-width: $md) {
+		font-size: 22px;
+		padding: 15px 40px;
+	}
+	@media (max-width: $sm) {
+		font-size: 18px;
+		padding: 15px 35px;
+	}
+	@media (max-width: $xs) {
+		font-size: 14px;
+		padding: 11px 30px;
+	}
+
+	&.s-20 {
+		font-size: 20px;
+		border-radius: 100px;
+		padding: 19px 56px;
+		min-height: 66px;
+
+		@media (max-width: $sm) {
+			font-size: 18px;
+			padding: 15px 35px;
+			min-height: 0;
+		}
+		@media (max-width: $xs) {
+			font-size: 14px;
+			padding: 13px 30px;
+		}
+	}
+
+	&.icon {
+		display: flex;
+		align-items: center;
+	}
+
+	&:hover {
+		background-color: $sky-blue;
+	}
+
+	svg {
+		display: block;
+		width: 23px;
+		height: 8px;
+		margin-left: 10px;
+	}
+
+	&.white {
+		color: #fff;
+		background-color: transparent;
+		border: 3px solid $white;
+		border-radius: 100px;
+		font-size: 20px;
+		padding: 17px 48px;
+
+		@media (max-width: $md) {
+			padding: 15px 40px;
+		}
+		@media (max-width: $sm) {
+			font-size: 18px;
+			padding: 15px 35px;
+		}
+		@media (max-width: $xs) {
+			font-size: 14px;
+			padding: 11px 30px;
+		}
+
+		&:hover {
+			background-color: $white;
+			color: $black;
+		}
+	}
+}

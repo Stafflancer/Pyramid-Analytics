@@ -1,0 +1,142 @@
+.team_members_block {
+	padding: 149px 0 70px
+}
+
+@media (max-width: 992px) {
+	.team_members_block {
+		padding: 100px 0 70px
+	}
+}
+
+@media (max-width: 768px) {
+	.team_members_block {
+		padding: 80px 0 35px
+	}
+}
+
+@media (max-width: 576px) {
+	.team_members_block {
+		padding: 40px 0 30px
+	}
+}
+
+.team_members_block.heading_black h2 {
+	color: #3e3e3e
+}
+
+.team_members_block.heading_white h2 {
+	color: #f7f9f7
+}
+
+.team_members_block.text_black .team-members .team-member {
+	color: #3e3e3e
+}
+
+.team_members_block.text_white .team-members .team-member {
+	color: #f7f9f7
+}
+
+.team_members_block h2 {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	margin: 0 0 65px 0
+}
+
+@media (max-width: 992px) {
+	.team_members_block h2 {
+		margin: 0 0 50px 0
+	}
+}
+
+@media (max-width: 768px) {
+	.team_members_block h2 {
+		margin: 0 0 40px 0
+	}
+}
+
+@media (max-width: 576px) {
+	.team_members_block h2 {
+		margin: 0 0 30px 0
+	}
+}
+
+
+.team_members_block .thumb img {
+	cursor: pointer;
+	margin-bottom: 3.5rem;
+	min-width: 180px;
+}
+
+@media (max-width: 576px) {
+	.team_members_block .thumb img {
+		min-width: 130px;
+	}
+}
+
+.team_members_block .team-members {
+	margin: 0 18%;
+}
+
+@media (max-width: 992px) {
+	.team_members_block .team-members {
+		margin: 0;
+	}
+}
+
+.team_members_block .team-member {
+	margin-bottom: 3.375rem;
+	width: 30%;
+}
+
+@media (max-width: 767px) {
+	.team_members_block .team-member {
+		width: 50%;
+	}
+}
+
+@media (max-width: 576px) {
+	.team_members_block .team-member {
+		width: 100%;
+	}
+}
+
+.team_members_block .bottom-holder {
+	font-family: 'MuseoSlab', sans-serif;
+	font-weight: 500;
+	letter-spacing: .42px;
+}
+
+.team_members_block .bottom-holder .name {
+	font-size: 21px;
+	font-weight: 500;
+	margin: 0
+}
+
+.team_members_block .bottom-holder .position {
+	font-size: 15px;
+	margin: 5px 0 0;
+}
+
+.team_members_block .content {
+	font-size: 18px;
+	line-height: 30px;
+	max-width: 337px;
+}
+
+@media (max-width: 992px) {
+	.team_members_block .content {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 576px) {
+	.team_members_block .content {
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.btn-holder {
+		margin-top: 30px;
+	}
+}

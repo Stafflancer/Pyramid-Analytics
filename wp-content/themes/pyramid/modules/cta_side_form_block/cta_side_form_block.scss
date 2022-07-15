@@ -1,0 +1,35 @@
+@import '../../src/scss/vars';
+
+.cta_side_form_block {
+	h2 {
+		text-align: center;
+		margin: 0 auto 98px;
+		font-family: $pt-sans;
+		font-weight: 700;
+
+		@media (max-width: $lg) {
+			margin-bottom: 60px;
+		}
+
+		@media (max-width: $sm) {
+			margin-bottom: 40px;
+		}
+
+		@media (max-width: $xs) {
+			margin-bottom: 30px;
+		}
+	}
+
+	// Settings
+	&.heading_black {
+		h2 {
+			color: $black-type-1;
+		}
+	}
+
+	&.heading_white {
+		h2 {
+			color: $white-type-1;
+		}
+	}
+}

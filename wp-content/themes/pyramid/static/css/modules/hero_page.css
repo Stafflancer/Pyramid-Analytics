@@ -1,0 +1,38 @@
+.hero-page {
+	padding: 210px 0 210px;
+	background: #39b091
+}
+
+@media screen and (max-width: 576px) {
+	.hero-page {
+		padding: 150px 0 50px
+	}
+}
+
+.hero-page .container {
+	max-width: 1480px
+}
+
+.hero-page h1 {
+	font: normal normal bold 16px/24px "Open Sans", sans-serif;
+	color: #f7f9f7;
+	text-transform: uppercase
+}
+
+.hero-page h2 {
+	font: normal normal bold 52px/62px "PT Sans", sans-serif;
+	color: #f7f9f7;
+	text-transform: capitalize
+}
+
+@media screen and (max-width: 576px) {
+	.hero-page h2 {
+		font: normal normal bold 42px/52px "PT Sans", sans-serif;
+	}
+}
+
+.hero-page p {
+	font: normal normal 600 18px/26px "Open Sans", sans-serif;
+	color: #f7f9f7;
+	max-width: 804px
+}

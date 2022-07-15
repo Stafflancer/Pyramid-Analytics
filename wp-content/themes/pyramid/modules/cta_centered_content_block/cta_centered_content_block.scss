@@ -1,0 +1,43 @@
+@import '../../src/scss/vars';
+
+.cta_centered_content_block {
+	padding: 41px 0 59px;
+
+	@media (max-width: $xs) {
+		padding: 40px 0;
+	}
+
+	/*settings*/
+	&.heading_black h2 {
+		color: $black-type-1;
+	}
+
+	&.heading_white h2 {
+		color: $white-type-1;
+	}
+
+	/*settings*/
+
+	.section-holder {
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 36px;
+		font-family: $pt-sans;
+		font-weight: 700;
+		margin: 0 0 16px 0;
+
+		@media (max-width: $md) {
+			font-size: 30px;
+		}
+
+		@media (max-width: $sm) {
+			font-size: 26px;
+		}
+
+		@media (max-width: $xs) {
+			font-size: 22px;
+		}
+	}
+}

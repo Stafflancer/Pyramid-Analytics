@@ -1,0 +1,33 @@
+.video_block .section-holder {
+    position: relative;
+    text-align: center;
+}
+.video_block .section-holder .video-btn {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+.video_block .video-btn img {
+    width: 70px;
+}
+.video_popup .modal-content {
+    background: transparent;
+    border: 0;
+}
+#video_pop button.close {
+    color: #fff;
+    opacity: 1;
+    text-shadow: none;
+    font-size: 30px;
+    outline: 0;
+}
+#video_pop .modal-dialog {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
